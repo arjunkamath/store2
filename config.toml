@@ -1,0 +1,66 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Asian & African Food Shop"
+theme = ['alpha-church']
+
+#rssLimit = 5
+
+#enableEmoji = true
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[taxonomies]
+  tag = "tags"
+  preacher = "preachers"
+  series = "series"
+
+# Paramaters for the whole site
+[params]
+  title = "Asian & African Food Shop"
+  subtitle = "OPEN EVERYDAY Ma-La: 10-17, Su: 11-17"
+  author = "Arjun Kamath"
+
+  customCSS = ["css/my.css"]
+
+  [params.map]
+    # For Open Street Map widgets
+    latitude = "60.15849"
+    longitude = "24.74160"
+    zoom = "19"
+
+  #Paramaters for the home/landing page
+  [params.landing]
+
+    [params.landing.banner]
+      image = "img/banner.jpg"
+
+    #Details for the box below the banner
+    [params.landing.services]
+      title = "We are close to Iso Omena"
+      text = "We are open Ma-La: 10-17, Su: 11-17."
+      
+
+    [params.landing.feature_icons]
+      #These feature icons look best if there's an even number of them.
+      #enable = true
+
+      #Accent is a colour defined in the CSS file. Choose between 1 and 5
+      
+      [[params.landing.feature_icons.tile]]
+        icon = "fa-clock"
+        icon_pack = "fas"
+        accent = "2"
+        title = "Ma-La: 10-17, Su: 11-17"
+
+    [params.landing.feature_images]
+      #These feature images look best if there's an even number of them.
+      enable = true
+
+      [[params.landing.feature_images.tile]]
+        title = "Address: Kala Maija 2, 02230, Espoo"
+        text = "Ph: +358 50 468 7134"
+
+      [[params.landing.feature_images.tile]]
+        image = "img/snacks.jpg"
+        
