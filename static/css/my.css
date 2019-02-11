@@ -1,8 +1,21 @@
 #banner p {
-  font-weight: 900;
-  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 1px 2px #000;
 }
 
 .major p {
-  font-size: 25px;
+  font-size: 20px;
+}
+
+#map {
+  height: 300px;
+}
+
+.icons, #navButton {
+  visibility: hidden;
+  height: 0;
+}
+
+.box.special {
+  min-height: 25em;  
 }

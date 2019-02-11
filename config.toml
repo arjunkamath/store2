@@ -4,21 +4,15 @@ title = "Asian & African Food Shop"
 theme = ['alpha-church']
 
 #rssLimit = 5
-
 #enableEmoji = true
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 
-[taxonomies]
-  tag = "tags"
-  preacher = "preachers"
-  series = "series"
-
 # Paramaters for the whole site
 [params]
   title = "Asian & African Food Shop"
-  subtitle = "OPEN EVERYDAY Ma-La: 10-17, Su: 11-17"
+  subtitle = "OPEN EVERYDAY"
   author = "Arjun Kamath"
 
   customCSS = ["css/my.css"]
@@ -29,6 +23,9 @@ googleAnalytics = ""
     longitude = "24.74160"
     zoom = "19"
 
+  [params.contact]
+    enable = false
+
   #Paramaters for the home/landing page
   [params.landing]
 
@@ -37,15 +34,8 @@ googleAnalytics = ""
 
     #Details for the box below the banner
     [params.landing.services]
-      title = "We are close to Iso Omena"
-      text = "We are open Ma-La: 10-17, Su: 11-17."
-      
-
-    [params.landing.feature_icons]
-      #These feature icons look best if there's an even number of them.
-      #enable = true
-
-      #Accent is a colour defined in the CSS file. Choose between 1 and 5
+      title = "We are near Iso Omena"
+      text = "<b>Ma-La:</b> 10-17, <b>Su:</b> 11-17."
       
       [[params.landing.feature_icons.tile]]
         icon = "fa-clock"
@@ -59,8 +49,19 @@ googleAnalytics = ""
 
       [[params.landing.feature_images.tile]]
         title = "Address: Kala Maija 2, 02230, Espoo"
-        text = "Ph: +358 50 468 7134"
+        text = "<b>Ph:</b> +358 50 468 7134"
 
       [[params.landing.feature_images.tile]]
         image = "img/snacks.jpg"
+    
+    [params.landing.CTA]
+      heading = "We're a small family business!"
+      message = "Do come over and say hi!"
+
+    [params.footer]
+      copyright = ["[CC0 (public domain)](//creativecommons.org/publicdomain/zero/1.0/)",
+                   "Design: [HTML5 UP](//html5up.net/alpha)",
+                   "[Hugo Port](//gohugo.io) by [Daniel Saunders](//github.com/funkydan2)",
+                   "Site Designed & Developed by Ella Kaila-Kamath & [Arjun Kamath](//arjunkamath.com)"
+                  ]
         
