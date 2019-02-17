@@ -46,13 +46,13 @@ googleAnalytics = ""
         icon = "fa-clock"
         icon_pack = "fas"
         accent = "2"
-        title = "Mon- Sat: 10-17:30 & Sun: 11-17:30"
+        title = "Mon- Sat: 11-20 & Sun: 12-20"
 
       [[params.landing.feature_icons.tile]]
         icon = "fa-map-marked"
         icon_pack = "fas"
         accent = "1"
-        title = "Kala Maija 2, 02230, Espoo"
+        title = "Matinkatu 5, 02230, Espoo"
         text = "<b>Ph:</b> +358 50 468 7134"
 
     [params.landing.feature_images]
@@ -75,6 +75,6 @@ googleAnalytics = ""
       copyright = ["[CC0 (public domain)](//creativecommons.org/publicdomain/zero/1.0/)",
                    "Design: [HTML5 UP](//html5up.net/alpha)",
                    "[Hugo Port](//gohugo.io) by [Daniel Saunders](//github.com/funkydan2)",
-                   "Site Designed & Developed by Ella Kaila-Kamath & [Arjun Kamath](//arjunkamath.com)"
+                   "Developed by [Arjun Kamath](//arjunkamath.com)"
                   ]
         
