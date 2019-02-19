@@ -35,7 +35,7 @@ googleAnalytics = ""
     #Details for the box below the banner
     [params.landing.services]
       title = "We are near Iso Omena"
-      text = "<b>Ma-La:</b> 10-17:30, <b>Su:</b> 11-17:30."      
+      text = "<b>Ma-La:</b> 11-20, <b>Su:</b> 12-20."
 
     [params.landing.feature_icons]
       #These feature icons look best if there's an even number of them.
